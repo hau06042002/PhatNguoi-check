@@ -52,7 +52,7 @@ pip install selenium pillow pytesseract schedule
 
 ---
 
-## 4. Cấu hình, đẩy lên GitHub
+## 4. Cấu hình, đẩy lên GitHub và lưu ý
 
 ### 4.1. Cấu hình đường dẫn Tesseract trong mã nguồn
 
@@ -75,8 +75,14 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/TEN-USER/TEN-REPO.git
+git remote add origin https://github.com/hau06042002/TraCuuPhatNguoi.git
 git branch -M main
 git push -u origin main
 
 ```
+
+### 4.3. Lưu ý
+
+- Nếu chương trình không tự động nhận diện captcha, bạn cần nhập thủ công trên trình duyệt.
+- Đảm bảo ChromeDriver và Chrome cùng phiên bản.
+- Nếu gặp lỗi, kiểm tra lại các bước cài đặt hoặc tạo Issue trên GitHub để được hỗ trợ.
