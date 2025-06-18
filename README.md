@@ -75,7 +75,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/hau06042002/TraCuuPhatNguoi.git
+git remote add origin https://github.com/hau06042002/PhatNguoi-check.git
 git branch -M main
 git push -u origin main
 
